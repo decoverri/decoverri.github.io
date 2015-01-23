@@ -1,7 +1,7 @@
 body {
 	padding-right: 1em;
 	background-color: #64FF36;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .header {
@@ -24,14 +24,26 @@ body {
 	width: 45%;	
 }
 
+.header-title-item {
+	display: inline-block;
+}
+
 .header-name {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	font-weight: bold;
+}
+
+.header-about {
+	font-size: 1.2em;
 }
 
 .header-menu {
 	vertical-align: middle;
 	width: 15%;
+}
+
+.header-menu-item {
+	display: inline-block;
 }
 
 .about {

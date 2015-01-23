@@ -1,0 +1,43 @@
+body {
+	padding-right: 1em;
+	background-color: #64FF36;
+	font-size: 20px;
+}
+
+.header {
+	background-color: #DDD;
+	padding: 0.2em;
+	position: relative;
+}
+
+.header-item {
+	display: inline-block;
+	margin: 0.1em;
+	vertical-align: middle;
+}
+
+.header-photo {
+	width: 30%;
+}
+
+.header-title {
+	width: 45%;	
+}
+
+.header-name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.header-menu {
+	vertical-align: middle;
+	width: 15%;
+}
+
+.about {
+	background-color: #FFF;
+}
+
+.projects {
+	background-color: #FFF;
+}

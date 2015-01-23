@@ -2,18 +2,26 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" >
 		<title>Deco Verri</title>
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header class="header">
-			<img src="http://www.gravatar.com/avatar/909c83577636c1a7de9a65b1b741876d?s=200" alt="Foto do Deco">
-			<h1>Deco Verri</h1>
-			<h2>Developer and instructor</h2>
+			<img class="header-photo header-item" src="http://www.gravatar.com/avatar/909c83577636c1a7de9a65b1b741876d?s=200" alt="Foto do Deco">
+			<div class="header-item header-title">
+				<h1 class="header-name">Deco Verri</h1>
+				<h2 class="header-about">Developer and instructor</h2>				
+			</div>
+			<ul class="header-menu header-item">
+				<li><a href="https://twitter.com/decoverri">twitter</a></li>
+				<li><a href="https://github.com/decoverri">github</a></li>
+			</ul>
 		</header><!-- /.header -->
 
-		<section class="description">
-			<p>I'm mostly driven by knowledge. Not only from books, but from experiences. And it always felt natural to me to pass it on afterwards. For that, I constantly try to better understand the flows of thinking.</p>
+		<section class="about">
+			<p>I'm mostly driven by knowledge. Not only from book,s but from experiences. And it always felt natural to me to pass it on afterwards. For that, I constantly try to better understand the flows of thinking.</p>
 			<p>I work as a software developer and instructor at <a href="http://caelum.com.br">Caelum</a>, in both Java and Front-end classes. I've worked as a financial consultant, technical analysis at an asset management and I've lectured classes at <a href="http://www.poli.usp.br/">Escola Politécnica</a>, apart from being a particular teacher almost all my life. I'm graduated in Applied Mathematics at <a href="http://www.ime.usp.br/">IME-USP</a>.
 		</section><!-- /.description -->
 
@@ -28,12 +36,5 @@
 				<dd>This is a Java open source project created by Caelum for the Brazilian Developer. It has tools for validating Brazilian only documents like CPF and wais of dealing with regional and national holidays. Built from start using TDD, it's a great project to check out if you are learning</dd>
 			</dl>
 		</section><!-- /.projects -->
-
-		<footer class="footer">
-			<ul>
-				<li><a href="https://twitter.com/decoverri">twitter</a></li>
-				<li><a href="https://github.com/decoverri">github</a></li>
-			</ul>
-		</footer><!-- /.footer -->
 	</body>
 </html>

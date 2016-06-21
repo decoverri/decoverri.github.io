@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #f4f4f4;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #626262;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1603,7 +1603,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #484848;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2469,14 +2469,14 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 110%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.65);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em 0 0;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 33%;
 	}
 
 		#header strong, #header b {
@@ -2488,7 +2488,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2507,7 +2507,7 @@
 		padding: 0 4em 6em 0;
 		position: fixed;
 		text-align: right;
-		width: 35%;
+		width: 33%;
 	}
 
 		#footer .icons {
@@ -2515,11 +2515,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.6);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.6);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -3106,9 +3106,3 @@
 			}
 
 	}
-
-
-/* DECO */
-body{
-	background-color: #F4F4F4;
-}
